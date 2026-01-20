@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
 import Head from 'next/head';
 import { FiMail, FiLock, FiLoader, FiArrowRight } from 'react-icons/fi';
-import axios from 'axios';
 import styles from '../styles/connexion.module.css';
 import Link from 'next/link';
 

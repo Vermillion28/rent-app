@@ -3,7 +3,6 @@ import { useRouter } from 'next/router';
 import Head from 'next/head';
 import Link from 'next/link';
 import { FiUser, FiMail, FiLock, FiCheck, FiArrowRight, FiHome, FiUserCheck } from 'react-icons/fi';
-import axios from 'axios';
 import styles from '@/styles/auth.module.css';
 
 // const api = axios.create({
