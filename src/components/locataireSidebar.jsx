@@ -3,7 +3,6 @@ import Link from "next/link";
 import {BarChart3, AlertTriangle, Users, FileText, Search, User, Bell, HelpCircle, LogOut} from "lucide-react";
 import styles from "@/styles/Layout.module.css";
 import { useState } from "react";
-import logout from "@/lib/auth/logout"; 
 // Dans Sidebar, après les imports
 if (typeof window !== 'undefined') {
   console.log('Contenu du localStorage:', { ...localStorage });
